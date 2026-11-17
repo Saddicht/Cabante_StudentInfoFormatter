@@ -6,14 +6,14 @@ section = input("Enter your section: ")
 favorite_subject = input("Enter your favorite subject: ")
 
 # Processing & Formatting
-full_name = f"{first_name} {last_name}"
+full_name = first_name + " " + last_name
 proper_full_name = full_name.title()
 full_name_uppercase = full_name.upper()
 section_upper = section.upper()
 subject_proper = favorite_subject.title()
 
 # Outputs
-print("Formatted Output:")
+print("\nFormatted Output:")
 print("Full name:", proper_full_name)
 print("Name Code:", full_name_uppercase)
 print("Section:", section_upper)
